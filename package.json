@@ -10,10 +10,8 @@
   "author": "Applus, Inc.",
   "license": "ISC",
   "dependencies": {
-    "@nowpaymentsio/nowpayments-api-js": "^1.0.5",
     "axios": "^1.6.7",
     "bcrypt": "^5.1.1",
-    "crypto": "^1.0.1",
     "dotenv": "^16.4.2",
     "express": "^4.18.2",
     "firebase-admin": "^12.0.0",
