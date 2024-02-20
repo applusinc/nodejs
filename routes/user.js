@@ -1,6 +1,6 @@
 const express = require('express');
 const { connection } = require("../database/database");
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const auth = require("../middlewares/auth");
 const moment = require('moment'); 
