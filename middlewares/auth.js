@@ -1,6 +1,6 @@
 const jwt = require('jsonwebtoken');
 const { connection } = require("../database/database");
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const moment = require('moment'); 
 
 const auth = async (req, res, next) => {
